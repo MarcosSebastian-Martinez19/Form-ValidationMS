@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <h1>
+        "Form Validation"
+    </h1>
+    <div class="con-input">
+        <input oninput="handleInputNameAndLastName(event)" type="text" name="name" placeholder="Name" type="text">
+        <div class="icons">
+            <i class='bx bxs-check-circle check'></i>
+            <i class='bx bxs-x-circle x'></i>
+        </div>
+    </div>
+    <br>
+    <div class="con-input">
+        <input oninput="handleInputNameAndLastName(event)" type="text" name="lastName" placeholder="Last Name" type="text">
+        <div class="icons">
+            <i class='bx bxs-check-circle check'></i>
+            <i class='bx bxs-x-circle x'></i>
+        </div>
+    </div>
+    <br>
+    <div class="con-input">
+        <input oninput="handleInputPhone(event)" type="number" name="number" placeholder="Number" type="text">
+        <div class="icons">
+            <i class='bx bxs-check-circle check'></i>
+            <i class='bx bxs-x-circle x'></i>
+        </div>
+    </div>
+    <br>
+    <div class="con-input">
+        <input oninput="handleInputEmail(event)" type="email" name="email" placeholder="Email" type="text">
+        <div class="icons">
+            <i class='bx bxs-check-circle check'></i>
+            <i class='bx bxs-x-circle x'></i>
+        </div>
+    </div>
+    <br>
+    <div class="con-input">
+        <input oninput="handleInputPassword(event)" type="password" name="password"placeholder="Password" type="text">
+        <div class="icons">
+            <i class='bx bxs-check-circle check'></i>
+            <i class='bx bxs-x-circle x'></i>
+        </div>
+    </div>
+</body>
+
+</html>
